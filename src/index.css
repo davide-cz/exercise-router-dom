@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+}
+img{
+  max-height: 100%;
+}
+
+.homeImg{
+  height: 400px;
+}
+
+.mainNav{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: .5rem
+  ;
+  padding: 0.5rem;
+
+  .navLink{
+    text-decoration: none;
+  }
+}
+
+.countriesPage{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+
+}
+.countryCard{
+  max-width: 100px;
+}
